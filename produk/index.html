@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>produk</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light d-lg-none d-md-block d-sm-block d-block">
+      <div class="container-fluid">
+        <a class="navbar-brand w-25 ms-5" href="#">coffe shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ps-5">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="#">Produk</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="#">Your Cart</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="#">History</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="d-lg-flex d-md-none d-sm-none d-none">          
+      <div class="logo"> 
+              <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="30" height="33" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0" transform="translate(-0.05) scale(0.00859375 0.0078125)"/>
+              </pattern>
+              <image id="image0" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABdFBMVEUAAABtSSRrPypgQCBVVStqQClrPyhqQCmAQEBrQClqQCpqPylpQClqQClqQClqQClpQClqQCprQShqPylpQShqQSlrPylpPypqQCtqPixtQCSAAABqQClrPylqQClqQClqQClqQSlrQSppPyhpQShqPyhrPyhpQClmPSlqQCsAAABqPylqQClqQCpqQClqQChqQClpQSlqPylqQSlrPyloQChpPypiOydpRCZqQShrPylrQiloPippPC1wQDBqQClpQChqQClqQClqQClpQClqQSlrQSppPyppQStqPyhsPihoQClqQClqQClqQClqQChqQChrQSlpQSlqPylqQSlrPylrQSlpPypqPixsQCZxORxqQClmTTNqQClqQClqQClqQClqQSlrPypmQCZqQSlrPyprQSppPypqPydsQChsPidrQSpqPytsQCdtPSRqQClqQClqQClpQClqQCprQShqPyhpQShqPylqQCtqQClqQCkAAAD9aLYqAAAAenRSTlMAB5kIBru95ASIk313+9/ev76enX5eXT08HRwC+Pnb2rqaenlaWTk4GRgB9fbX1re2lpV2dSBVDSJSUTIxERDw0M+vro+Obm1OTS0s7OvLyquqiolqaUpJKSgJ/gro58fGpqUUgoFiYUFAIVY1NBXz09KzspKRcnEw73lu0eUAAAABYktHRACIBR1IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AoTBg0nXTSkcAAAAolJREFUeNrt2+kz1XEUx/Fv1hspS6EsyRJRQnFxLVGWQhSV0m6Lsofy1zPTgziTued8z+fM9OB8Hhvn9eDOb+783nNDwO3CUbplAK/9Y5kOcIADHKAAZGUDlpMWkHvqr7OEePgyHeAABzjAAQ5wgAMc8H8BEhf/Ls/uaN7Jv8+/9GeJc78hJwqs7hecf/TMLlsBrvDuh0IrQBETUGwFKGECrloB8pmAa1aAUiagzApQzgRctwLcYAIqKm3uV1UwAaHaBnCTez9k2wBq2IBbNgD+C5paG0AdG1BvA2hgA27bABrZgCYbwB02oLnF4v7dZjYg3LMAtPLvh/sWgDYBoN0C0CEAPLAAPBQAOrsM1ikA+Hy+kOyGLykC9OCfQ70iQAoP6BMB+vGAAdmHYBB9f1D4KXyEBgwJAcNowGMh4AkaMCIEjKIBY0LAOBrwVAh4hgZMCAFJNED2JD7ZJPb+lPR+eI4FTIsBM1jACzHgJRYwKwbMYQGvxIDXWMAbMWAeC3grBrxbQN5feC8GhA9IwEf5/fAJCfgcAfiCBHyNACwiv5MvRgB8Pl9I4d5PpaIAS7jn0HIUYAUHWI0CfMMB1qIA6zhA3DtKXMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6VMbnZ3s6UMbnZ3s6UMaviQaAMn787ypAGZ+f7elAGZ+f7elAGZ+f7elAGZ+f7ekwGV+S7ekgGV+S7ekgGb9NAYBkfEm2p4NkfEm2p/uOAHQpAD8QgA0FYBMBUL2e2dLf39LcD9t6wI4KsKsH7KkAP/WAfRXgQA84VAEAGV+W7en69IBfKgAg4wuzPd1v7f102f4YHafoQNyAPE4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTAtMTlUMDY6MTM6MzkrMDA6MDCibWEHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTEwLTE5VDA2OjEzOjM5KzAwOjAw0zDZuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+              </defs>
+              </svg> 
+          <h1>
+              Coffee Shop
+          </h1> 
+      </div>
+
+          <div class="primary-menu"> 
+              <ul class="menu">
+                  <li><a href="file:///C:/Users/muham/Documents/fazztrack/tugas%20fazztrack/week_3/Landing_page/index.html">Home</a></li>
+                  <li>Product</li>
+                  <li>Your Cart</li>
+                  <li>History</li>
+              </ul>
+          </div>
+      </div>
+      <div class="secondary-menu"> 
+          <ul class="menu">
+              <li class="s">
+                  <form>
+                      <img src="img/search.png"> 
+                      <input type="text" name="Search" class="Search" placeholder="Search">
+                  </form>
+              </li>
+              <li>         
+                  <img class="gmbr"src="img/1.png"/>                           
+              </li>
+              <li>
+                  <img class="gambar" src="img/2.png"/>
+              </li>
+          </ul>
+      </div>
+      
+  </nav>
+
+
+    
+    <main class="container-fluid">
+      <div class="row">
+        <aside class="col-sm col-md-6 col-lg-3">
+          <div class="col-lg-12 col-md-3">
+            <div class="col mt-3 ket-promo">
+              <h1>Promo Today</h1>
+              <p>Coupune will be updated every weeks. Check them out!</p>
+            </div>
+            <div class="col-lg-12 col-md-3 p-3">
+              <button class="promo m-3">           
+                  <img src="img/logom.png"> 
+                  <h1>HAPPY MOTHER’S DAY!</h1>
+                  <p>Get one of our favorite menu for free!</p>
+              </button>
+              <button class="promo m-3" id="orange" >           
+                  <img src="img/logog.png"> 
+                  <h1>HAPPY MOTHER’S DAY!</h1>
+                  <p>Get one of our favorite menu for free!</p>
+              </button>
+              <button class="promo m-3">           
+                  <img src="img/logom.png"> 
+                  <h1>HAPPY MOTHER’S DAY!</h1>
+                  <p>Get one of our favorite menu for free!</p>
+              </button>
+              <button class="promo m-3" id="coklat">           
+                  <img src="img/logog.png"> 
+                  <h1>HAPPY MOTHER’S DAY!</h1>
+                  <p>Get one of our favorite menu for free!</p>
+              </button>   
+              <button class="m-3 apply">           
+                  <h1>Apply Cupon</h1>
+              </button>
+            </div>
+            <div class="col mt-3 terms">
+              <strong>Terms and Condition</strong>
+              <ol>
+                  <li>You can only apply 1 coupon per day</li>
+                  <li>it only for dine in</li>
+                  <li>Buy 1 get 1 only for new user</li>
+                  <li>Should make member card to apply coupon</li>
+              </ol>
+            </div>
+          </div>
+        </aside>
+        <section class="content col-sm col-md-6 col-lg-9">
+          <div class="card-main">
+              <div class="card-main1">
+                  <div class="nav-menu"> 
+                  <ul class="menu">
+                      <li>Favorite & Promo</li>
+                      <li>Coffee</li>
+                      <li>Non Coffee</li>
+                      <li>Foods</li>
+                      <li>Add-on</li>
+                  </ul>
+                  </div>
+              </div>
+              <div class="card-main2">
+                  <div class="produk">
+                      <div class="item">
+                          <img width="150" class="img" src="img/m1.png"/> 
+                          <h1>Veggie tomato mix</h1>
+                          <p>IDR 34.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m2.png"/> 
+                          <h1>Hazelnut Latte</h1>
+                          <p>IDR 25.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m3.png"/> 
+                          <h1>Summer Fried rice</h1>
+                          <p>IDR 32.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m4.png"/> 
+                          <h1>Cream ice Latte</h1>
+                          <p>IDR 27.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m5.png"/> 
+                          <h1>Drum Stick</h1>
+                          <p>IDR 30.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m6.png"/> 
+                          <h1>Salty Rice</h1>
+                          <p>IDR 20.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m7.png"/> 
+                          <h1>Summer Fried rice</h1>
+                          <p>IDR 32.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m8.png"/> 
+                          <h1>Creamy ice Latte</h1>
+                          <p>IDR 27.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m9.png"/> 
+                          <h1>Veggie tomato mix</h1>
+                          <p>IDR 34.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m10.png"/> 
+                          <h1>Hazzelnut Latte</h1>
+                          <p>IDR 26.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m11.png"/> 
+                          <h1>Summer Fried rice</h1>
+                          <p>IDR 32.000</p>
+                      </div>
+                      <div class="item">
+                          <img width="150" class="img" src="img/m12.png"/> 
+                          <h1>Creamy ice Latte</h1>
+                          <p>IDR 27.000</p>
+                      </div>
+                      <div class="keterangan">*the price has been cutted by discount appears</div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </div>
+    </main>
+
+    <footer class="col-sm-12 col-md-12 col-lg-6  w-100">
+      <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 footer-left">
+            <div class="col logo-footer">
+                <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="30" height="33" fill="url(#pattern0)"/>
+                    <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="translate(-0.05) scale(0.00859375 0.0078125)"/>
+                    </pattern>
+                    <image id="image0" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABdFBMVEUAAABtSSRrPypgQCBVVStqQClrPyhqQCmAQEBrQClqQCpqPylpQClqQClqQClqQClpQClqQCprQShqPylpQShqQSlrPylpPypqQCtqPixtQCSAAABqQClrPylqQClqQClqQClqQSlrQSppPyhpQShqPyhrPyhpQClmPSlqQCsAAABqPylqQClqQCpqQClqQChqQClpQSlqPylqQSlrPyloQChpPypiOydpRCZqQShrPylrQiloPippPC1wQDBqQClpQChqQClqQClqQClpQClqQSlrQSppPyppQStqPyhsPihoQClqQClqQClqQClqQChqQChrQSlpQSlqPylqQSlrPylrQSlpPypqPixsQCZxORxqQClmTTNqQClqQClqQClqQClqQSlrPypmQCZqQSlrPyprQSppPypqPydsQChsPidrQSpqPytsQCdtPSRqQClqQClqQClpQClqQCprQShqPyhpQShqPylqQCtqQClqQCkAAAD9aLYqAAAAenRSTlMAB5kIBru95ASIk313+9/ev76enX5eXT08HRwC+Pnb2rqaenlaWTk4GRgB9fbX1re2lpV2dSBVDSJSUTIxERDw0M+vro+Obm1OTS0s7OvLyquqiolqaUpJKSgJ/gro58fGpqUUgoFiYUFAIVY1NBXz09KzspKRcnEw73lu0eUAAAABYktHRACIBR1IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AoTBg0nXTSkcAAAAolJREFUeNrt2+kz1XEUx/Fv1hspS6EsyRJRQnFxLVGWQhSV0m6Lsofy1zPTgziTued8z+fM9OB8Hhvn9eDOb+783nNDwO3CUbplAK/9Y5kOcIADHKAAZGUDlpMWkHvqr7OEePgyHeAABzjAAQ5wgAMc8H8BEhf/Ls/uaN7Jv8+/9GeJc78hJwqs7hecf/TMLlsBrvDuh0IrQBETUGwFKGECrloB8pmAa1aAUiagzApQzgRctwLcYAIqKm3uV1UwAaHaBnCTez9k2wBq2IBbNgD+C5paG0AdG1BvA2hgA27bABrZgCYbwB02oLnF4v7dZjYg3LMAtPLvh/sWgDYBoN0C0CEAPLAAPBQAOrsM1ikA+Hy+kOyGLykC9OCfQ70iQAoP6BMB+vGAAdmHYBB9f1D4KXyEBgwJAcNowGMh4AkaMCIEjKIBY0LAOBrwVAh4hgZMCAFJNED2JD7ZJPb+lPR+eI4FTIsBM1jACzHgJRYwKwbMYQGvxIDXWMAbMWAeC3grBrxbQN5feC8GhA9IwEf5/fAJCfgcAfiCBHyNACwiv5MvRgB8Pl9I4d5PpaIAS7jn0HIUYAUHWI0CfMMB1qIA6zhA3DtKXMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6VMbnZ3s6UMbnZ3s6UMaviQaAMn787ypAGZ+f7elAGZ+f7elAGZ+f7elAGZ+f7ekwGV+S7ekgGV+S7ekgGb9NAYBkfEm2p4NkfEm2p/uOAHQpAD8QgA0FYBMBUL2e2dLf39LcD9t6wI4KsKsH7KkAP/WAfRXgQA84VAEAGV+W7en69IBfKgAg4wuzPd1v7f102f4YHafoQNyAPE4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTAtMTlUMDY6MTM6MzkrMDA6MDCibWEHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTEwLTE5VDA2OjEzOjM5KzAwOjAw0zDZuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+                    </defs>
+                </svg> 
+                <h1>
+                    Coffee Shop
+                </h1> 
+            </div>
+            <div class="col ket-logo">
+                <p class="ket-footer">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            </div>
+            <div class="col icon-sosmed">
+                <img class="m-2" src="img/fb.png"> 
+                <img class="m-2" src="img/twt.png"> 
+                <img class="m-2" src="img/ig.png"> 
+            </div>
+            <div class="col copyright">
+                <p class="ket-footer">©2020CoffeeStore</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="row mt-5 ms-5 footer-right">
+                <div class="col-6 list-unstyled list-left">
+                    <li>Product</li>
+                    <li>Download</li>
+                    <li>Pricing</li>
+                    <li>Locations</li>
+                    <li>Countries</li>
+                    <li>Blog</li>
+                </div>
+                <div class="col-6 list-unstyled list-right">
+                    <li>Language</li>
+                    <li>FAQ</li>
+                    <li>Abaout Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </div>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

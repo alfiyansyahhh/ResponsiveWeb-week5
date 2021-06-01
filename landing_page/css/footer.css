@@ -1,0 +1,77 @@
+
+footer .row{
+    background-color:  #e6eaecdc;
+}
+
+.logo-footer{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.logo-footer h1{
+    margin-left: 40px;
+    margin-top: -25px;  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+
+.ket-logo{       
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222e47;
+    width: 340px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.icon-sosmed{
+    margin-left: 39px;
+}
+
+.copyright{
+    margin-left: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #AFB5C0;
+    margin-top: 20px;
+}
+
+
+
+.footer-left{
+    padding-left: 100px;
+}
+.footer-right{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.list-left{
+    padding-left: 300px;
+   
+}
+.list-left li:hover{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0B132A;
+}
+.list-right li:hover{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0B132A;
+}
+

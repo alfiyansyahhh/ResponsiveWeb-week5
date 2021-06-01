@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bg.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4  d-lg-block d-md-none d-sm-none d-none bg">
+           
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-8 pt-1">
+            
+            <div class="col-sm-12 col-md-12 col-lg-6 w-100">
+                <div class="navbars">          
+                    <div class="logos"> 
+                               <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="30" height="33" fill="url(#pattern0)"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="translate(-0.05) scale(0.00859375 0.0078125)"/>
+                                </pattern>
+                                <image id="image0" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABdFBMVEUAAABtSSRrPypgQCBVVStqQClrPyhqQCmAQEBrQClqQCpqPylpQClqQClqQClqQClpQClqQCprQShqPylpQShqQSlrPylpPypqQCtqPixtQCSAAABqQClrPylqQClqQClqQClqQSlrQSppPyhpQShqPyhrPyhpQClmPSlqQCsAAABqPylqQClqQCpqQClqQChqQClpQSlqPylqQSlrPyloQChpPypiOydpRCZqQShrPylrQiloPippPC1wQDBqQClpQChqQClqQClqQClpQClqQSlrQSppPyppQStqPyhsPihoQClqQClqQClqQClqQChqQChrQSlpQSlqPylqQSlrPylrQSlpPypqPixsQCZxORxqQClmTTNqQClqQClqQClqQClqQSlrPypmQCZqQSlrPyprQSppPypqPydsQChsPidrQSpqPytsQCdtPSRqQClqQClqQClpQClqQCprQShqPyhpQShqPylqQCtqQClqQCkAAAD9aLYqAAAAenRSTlMAB5kIBru95ASIk313+9/ev76enX5eXT08HRwC+Pnb2rqaenlaWTk4GRgB9fbX1re2lpV2dSBVDSJSUTIxERDw0M+vro+Obm1OTS0s7OvLyquqiolqaUpJKSgJ/gro58fGpqUUgoFiYUFAIVY1NBXz09KzspKRcnEw73lu0eUAAAABYktHRACIBR1IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AoTBg0nXTSkcAAAAolJREFUeNrt2+kz1XEUx/Fv1hspS6EsyRJRQnFxLVGWQhSV0m6Lsofy1zPTgziTued8z+fM9OB8Hhvn9eDOb+783nNDwO3CUbplAK/9Y5kOcIADHKAAZGUDlpMWkHvqr7OEePgyHeAABzjAAQ5wgAMc8H8BEhf/Ls/uaN7Jv8+/9GeJc78hJwqs7hecf/TMLlsBrvDuh0IrQBETUGwFKGECrloB8pmAa1aAUiagzApQzgRctwLcYAIqKm3uV1UwAaHaBnCTez9k2wBq2IBbNgD+C5paG0AdG1BvA2hgA27bABrZgCYbwB02oLnF4v7dZjYg3LMAtPLvh/sWgDYBoN0C0CEAPLAAPBQAOrsM1ikA+Hy+kOyGLykC9OCfQ70iQAoP6BMB+vGAAdmHYBB9f1D4KXyEBgwJAcNowGMh4AkaMCIEjKIBY0LAOBrwVAh4hgZMCAFJNED2JD7ZJPb+lPR+eI4FTIsBM1jACzHgJRYwKwbMYQGvxIDXWMAbMWAeC3grBrxbQN5feC8GhA9IwEf5/fAJCfgcAfiCBHyNACwiv5MvRgB8Pl9I4d5PpaIAS7jn0HIUYAUHWI0CfMMB1qIA6zhA3DtKXMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6VMbnZ3s6UMbnZ3s6UMaviQaAMn787ypAGZ+f7elAGZ+f7elAGZ+f7elAGZ+f7ekwGV+S7ekgGV+S7ekgGb9NAYBkfEm2p4NkfEm2p/uOAHQpAD8QgA0FYBMBUL2e2dLf39LcD9t6wI4KsKsH7KkAP/WAfRXgQA84VAEAGV+W7en69IBfKgAg4wuzPd1v7f102f4YHafoQNyAPE4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTAtMTlUMDY6MTM6MzkrMDA6MDCibWEHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTEwLTE5VDA2OjEzOjM5KzAwOjAw0zDZuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+                                </defs>
+                                </svg> 
+                        <h1>
+                            Coffee Shop
+                        </h1> 
+                    </div>
+                    <div class="secondary-menus">                    
+                          <button type="submit" class="btn" id="sign"> Sign Up</button>
+                    </div>
+                </div>
+              </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 w-100">
+                <form class="m-5">
+                    <h1>Login</h1>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email adress">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 m-2">                    
+                            <button type="submit" class="btn ">Submit</button>
+                        </div>
+                        <div class="col-12 m-2">                    
+                            <button type="submit" class="btn " id="google"> <img src="img/google.png" class="pe-2"> Login with Google</button>
+                        </div>
+                     </div>
+                </form>
+            </div>           
+          </div>
+          
+
+          <footer class="col-sm-12 col-md-12 col-lg-6  w-100">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 footer-left">
+                  <div class="col logo-footer">
+                      <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <rect width="30" height="33" fill="url(#pattern0)"/>
+                          <defs>
+                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0" transform="translate(-0.05) scale(0.00859375 0.0078125)"/>
+                          </pattern>
+                          <image id="image0" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABdFBMVEUAAABtSSRrPypgQCBVVStqQClrPyhqQCmAQEBrQClqQCpqPylpQClqQClqQClqQClpQClqQCprQShqPylpQShqQSlrPylpPypqQCtqPixtQCSAAABqQClrPylqQClqQClqQClqQSlrQSppPyhpQShqPyhrPyhpQClmPSlqQCsAAABqPylqQClqQCpqQClqQChqQClpQSlqPylqQSlrPyloQChpPypiOydpRCZqQShrPylrQiloPippPC1wQDBqQClpQChqQClqQClqQClpQClqQSlrQSppPyppQStqPyhsPihoQClqQClqQClqQClqQChqQChrQSlpQSlqPylqQSlrPylrQSlpPypqPixsQCZxORxqQClmTTNqQClqQClqQClqQClqQSlrPypmQCZqQSlrPyprQSppPypqPydsQChsPidrQSpqPytsQCdtPSRqQClqQClqQClpQClqQCprQShqPyhpQShqPylqQCtqQClqQCkAAAD9aLYqAAAAenRSTlMAB5kIBru95ASIk313+9/ev76enX5eXT08HRwC+Pnb2rqaenlaWTk4GRgB9fbX1re2lpV2dSBVDSJSUTIxERDw0M+vro+Obm1OTS0s7OvLyquqiolqaUpJKSgJ/gro58fGpqUUgoFiYUFAIVY1NBXz09KzspKRcnEw73lu0eUAAAABYktHRACIBR1IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AoTBg0nXTSkcAAAAolJREFUeNrt2+kz1XEUx/Fv1hspS6EsyRJRQnFxLVGWQhSV0m6Lsofy1zPTgziTued8z+fM9OB8Hhvn9eDOb+783nNDwO3CUbplAK/9Y5kOcIADHKAAZGUDlpMWkHvqr7OEePgyHeAABzjAAQ5wgAMc8H8BEhf/Ls/uaN7Jv8+/9GeJc78hJwqs7hecf/TMLlsBrvDuh0IrQBETUGwFKGECrloB8pmAa1aAUiagzApQzgRctwLcYAIqKm3uV1UwAaHaBnCTez9k2wBq2IBbNgD+C5paG0AdG1BvA2hgA27bABrZgCYbwB02oLnF4v7dZjYg3LMAtPLvh/sWgDYBoN0C0CEAPLAAPBQAOrsM1ikA+Hy+kOyGLykC9OCfQ70iQAoP6BMB+vGAAdmHYBB9f1D4KXyEBgwJAcNowGMh4AkaMCIEjKIBY0LAOBrwVAh4hgZMCAFJNED2JD7ZJPb+lPR+eI4FTIsBM1jACzHgJRYwKwbMYQGvxIDXWMAbMWAeC3grBrxbQN5feC8GhA9IwEf5/fAJCfgcAfiCBHyNACwiv5MvRgB8Pl9I4d5PpaIAS7jn0HIUYAUHWI0CfMMB1qIA6zhA3DtKXMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6VMbnZ3s6UMbnZ3s6UMaviQaAMn787ypAGZ+f7elAGZ+f7elAGZ+f7elAGZ+f7ekwGV+S7ekgGV+S7ekgGb9NAYBkfEm2p4NkfEm2p/uOAHQpAD8QgA0FYBMBUL2e2dLf39LcD9t6wI4KsKsH7KkAP/WAfRXgQA84VAEAGV+W7en69IBfKgAg4wuzPd1v7f102f4YHafoQNyAPE4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTAtMTlUMDY6MTM6MzkrMDA6MDCibWEHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTEwLTE5VDA2OjEzOjM5KzAwOjAw0zDZuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+                          </defs>
+                      </svg> 
+                      <h1>
+                          Coffee Shop
+                      </h1> 
+                  </div>
+                  <div class="col ket-logo">
+                      <p class="ket-footer">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                  </div>
+                  <div class="col icon-sosmed">
+                      <img class="m-2" src="img/fb.png"> 
+                      <img class="m-2" src="img/twt.png"> 
+                      <img class="m-2" src="img/ig.png"> 
+                  </div>
+                  <div class="col copyright">
+                      <p class="ket-footer">©2020CoffeeStore</p>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <div class="row mt-5 ms-5 footer-right">
+                      <div class="col-6 list-unstyled list-left">
+                          <li>Product</li>
+                          <li>Download</li>
+                          <li>Pricing</li>
+                          <li>Locations</li>
+                          <li>Countries</li>
+                          <li>Blog</li>
+                      </div>
+                      <div class="col-6 list-unstyled list-right">
+                          <li>Language</li>
+                          <li>FAQ</li>
+                          <li>Abaout Us</li>
+                          <li>Privacy Policy</li>
+                          <li>Terms of Service</li>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

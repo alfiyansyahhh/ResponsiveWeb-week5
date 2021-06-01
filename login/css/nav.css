@@ -1,0 +1,78 @@
+.navbars{
+    font-family: 'Rubik';
+    width: 100%;
+    display: flex;
+}
+
+.logos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.logos h1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.secondary-menus {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    list-style-type: none;
+    margin: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.secondary-menus a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-nav{
+    text-align: center; 
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #6A4029;
+    margin-bottom: 50px;
+    color: #6A4029;
+    margin-top: 50px;
+}
+
+#sign{
+    width: 150px;
+    height: 45px;
+    background: #FFBA33;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #6A4029;
+    margin-left: -40px ;
+}
+
+#sign:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    #sign{
+        margin: none;
+        margin-left: 20px;
+    }
+}

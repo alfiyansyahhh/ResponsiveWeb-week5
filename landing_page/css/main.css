@@ -1,0 +1,399 @@
+.top{
+    background-image: url('../images/background.png')  !important;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 190px !important;
+}
+
+
+
+.top .start1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    width: 470px;
+    height: 140px;
+    color: #FFFFFF;
+
+}
+
+.top .start2{
+    width: 555px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.btn1{
+    width: 250px;
+    height: 60px;
+    filter: drop-shadow(0px 6px 20px rgba(255, 186, 51, 0.4));
+    margin-top: 50px;
+}
+
+.btn2{
+    background: #FFBA33 !important;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #6A4029;
+    padding-top: 16px;
+}
+
+.btn2 label{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #6A4029;
+
+}
+
+
+section{
+    background: #FFFFFF;
+   
+}
+.card-icon{
+    position: absolute;
+    padding-top: 50px;
+    width: 1300px;
+    height: 150px;
+    left: 250px;
+    top: 630px;
+    background: #FFFFFF !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #cccccc;
+}
+
+.card-icon strong{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.card-icon p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+    
+}
+
+section {
+    margin: 0 60px;
+    padding: 210px;
+
+}
+
+section  h1{
+    width: 432px;
+    height: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    text-align: start;
+}
+
+section  p{
+    width: 427.88px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: start;
+   
+}
+
+section  ul{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    list-style: none;
+    margin-top: 30px;
+    text-align: start;
+   
+}
+
+section  ul li img{
+    margin-top: 10px;
+    margin-left: -35px;  
+}
+
+section  ul li p{
+    margin-top: -25px;
+    margin-left: 1px;
+   
+}
+
+article{
+    background: #F8F8F8;
+}
+
+.menu-favorite{
+    padding: 70px;
+    padding-top: 30px;
+}
+.menu-favorite h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.menu-favorite p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.card-menu{
+    margin-top: 160px !important;
+}
+
+.card-body .img-menu{
+    margin-top: -70px;
+}
+
+#card-order {
+    background:  #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 330px;
+    height: 567px;
+}
+
+#card-order:hover{
+    border: solid 1px #6A4029;
+}
+
+.card-title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 20px;
+}
+
+.ket-card ul li{
+    padding-top: 15px;
+    margin-left: -15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4F5665;  
+}
+
+#card-order .card-body img{
+    margin-top: -80px;
+    border-radius: 100%;
+}
+
+.card-body strong{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.card-body .order{
+    width: 177.88px;
+    height: 45px;
+    border: 2px solid #FFBA33;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A4029;
+    padding-top: 10px;
+    margin-top: -20px;
+
+}
+
+.visit h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.visit p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.visit svg{
+    margin-top: 90px;
+}
+
+.ourpartner{
+    margin-top: 80px;
+}
+
+.ourpartner{
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.loved h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.loved p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+#card-loved{
+    width: 400px;
+    height: 230px;
+    /* background: #FFFFFF; */
+  
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px; 
+}
+
+
+
+#card-loved:hover{
+    border: 2px solid #6A4029;
+}
+
+#card-loved img{
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+#card-loved h6{
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 18px;
+    color: #0B132A;
+    margin-left: 30px;
+     margin-top: -2px;
+}
+
+#card-loved p{
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 12px;
+    color: #0B132A;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#card-loved .card-text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;font-family: Rubik;
+
+}
+
+#card-loved .rating{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0B132A;
+}
+
+#card-loved svg{
+ 
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+#btn-left{
+    border-radius: 100%;
+    border: 2px solid #6A4029;
+    height: 45px;
+    margin-left: 40px;
+    
+  
+}
+
+
+
+#btn-right{
+    border-radius: 100%; 
+    background: #6A4029;
+    height: 45px;
+    margin-left: 10px;
+ 
+    
+
+}

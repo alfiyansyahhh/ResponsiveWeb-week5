@@ -1,0 +1,150 @@
+
+
+form h1{
+    text-align: center; 
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #6A4029;
+    margin-bottom: 50px;
+}
+
+.form-group{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4F5665;
+    margin-bottom: 20px;
+    margin-left: 330px;
+  
+}
+
+.form-group input{
+    background: #FFFFFF;
+    border: 1px solid #4F5665;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 505px;
+    height: 65px;
+
+}
+
+.btn{
+    background: #FFBA33;
+    box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+    border-radius: 20px;
+    width: 505px;
+    height: 75px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6A4029;
+    margin-left: 320px;
+    justify-items: center;
+}
+
+.btn:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+#google{
+    margin-left: 320px !important;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: none;
+    margin: 30px auto;
+    width: 505px;
+    height: 75px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+#google:hover{
+    background-color: rgba(196, 196, 196, 0.67);
+}
+
+.ready{  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #9F9F9F;
+    text-align: center;
+    cursor: pointer
+}
+
+#coklat{
+    background-color: #6A4029;
+    color: white;
+}
+
+#coklat:hover{
+    background-color: #FFBA33;
+    color: #6A4029;
+}
+
+@media screen and (max-width: 576px){
+    .form-group{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+        color: #4F5665;
+        margin-bottom: 20px;
+        margin-left: -30px;
+      
+    } 
+    .form-group input{
+        background: #FFFFFF;
+        border: 1px solid #4F5665;
+        box-sizing: border-box;
+        border-radius: 20px;
+        width: 310px;
+        height: 65px;
+    
+    }
+
+    .btn{
+        background: #FFBA33;
+        box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+        border-radius: 20px;
+        width: 310px;
+        height: 75px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #6A4029;
+        margin-left: -30px;
+        justify-items: center;
+    }
+    #google{
+        margin-left: -30px !important;
+        background: white;
+        color: black;
+        font-size: 17px;
+        border: none;
+        margin: 30px auto;
+        width: 310px;
+        height: 75px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+        font-weight: bold;
+        cursor: pointer;   
+    }
+}
