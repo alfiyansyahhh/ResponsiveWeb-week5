@@ -1,340 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* produk */
 
-
-
-@media screen and (max-width: 576px){
-    .produk {
-        display: grid;
-        grid-template-columns: 220px 220px;
-        grid-template-rows: 350px;
-        justify-content: center;
-     
-    }
-    
-   
-}
-
-
-
-
-aside{
-    border-right: 1px solid #cccccc; 
-}
-
-.promo1{
-    display: none;
-}
-
-aside .ket-promo h1{
+ #navbarp{
     font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    color: #6A4029;
-    text-align: center;
-    margin-top: 70px;
-}
-
-aside .ket-promo p{
-    width: 390px;
-    margin-left: 10px;
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
-    line-height: 18px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 50px;
-}
-
-aside .promo{
-    justify-content: center;
-    width: 335px;
-    height: 109px;
-    background-color: #88B788;
-    border: none;
-    cursor: pointer;           
-    margin-top: -5px !important;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 15px !important;
-}
-aside .promo:hover{
-    background-color:bisque;
-}
-#orange{
-    background-color: #F5C361;
-}
-#orange:hover{
-    background-color:bisque;
-}
-
-#coklat{
-    background-color: #C59378;;
-}
-#coklat:hover{
-    background-color:bisque;
-}
-
-.promo img{
-    margin-left: -200px;
-}
-
-.promo h1{
-    margin-top: -90px;
-    margin-left: 90px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 30px;
-}
-
-.promo p{
-    margin-top: -10px;
-    margin-left: 125px;
-    width: 150px;
-    font-weight: normal;
-    text-align: left;
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 21px;
-    color: #000000;
-}
-
-
-
-.apply{
-    width: 335px;
-    height: 64px;
-    background: #6A4029;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    align-items: center; 
-    margin-left: 15px !important;
-    margin-top: 90px !important;
-}
-.apply h1{
-    color: white;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    margin-top: 10px;
-}
-
-.apply:hover{
-    background-color: #FFBA33;
-    color: #6A4029;
-    cursor: pointer;
-}
-
-.terms{
-    margin-left: 70px;
-    margin-top: 50px !important;
-}
-
-.terms li{
-    margin-left: -20px;
-}
-
-
-
-.nav-article ul {
-    list-style-type: none !important;
-    display: flex;
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-bottom: -10px;
-   
-}
-
-.nav-article ul li{
-    margin-left: 40px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 23.7px;
-    color: #9F9F9F;
-    cursor: pointer; 
-}
-.nav-article li:hover {
-    color: #6A4029 !important;
-    font-weight: 700 !important;
-
-}
-
-.cardd{
-    width: 970px !important;
-   
-}
-.card{
-    justify-content: center;
-    margin-left: 60px;
-    margin-top: 90px;
-    margin-bottom: 0px;
-    width: 166px;
-    height: 212.41px;
-    background-color: white;
-    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);            
-    padding: 10px 10px;
-    border-radius: 30px;
-    text-align: center;
-    cursor: pointer; 
-    border: none;
-}
-
-.card img{
-    border-radius: 100px;
-    margin-top: -50px;
-}
-
-.card h1{
-    margin-top: 10px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 900;
     font-size: 20px;
-    text-align: center;
-    line-height: 101.34%;
-}
-
-.card p{  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 25px;
-    text-align: center;
-    color: #6A4029;
-}
-
-article .ket-article{
-    margin-left: 290px !important; 
-    margin-top: -40px;
-}
-
-
-
-.card-main1{
-    grid-area: 1;    
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: center; 
-    padding-left:0px;
-   
-}
-
-.nav-menu .menu{
-    display: flex;
-    justify-content: center;  
-    list-style-type: none;
-    padding-left:0px;
-    
-}
-.nav-menu .menu li{
-    margin: 30px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 23.7px;
+    line-height: 24px;
     color: #9F9F9F;
-    cursor: pointer;
-}
-.nav-menu .menu li:hover {
-    color: #6A4029;
-    font-weight: 700;
-
+    border-bottom: solid 4px transparent ;
 }
 
-/* CARD 2 */
-.card-main2{
-    grid-area: 2;
-    margin-top: 150px;
-    
+#navbarp li{
+    border-bottom: solid 4px transparent;
 }
 
-.item:hover{
-    border: solid 1px #6A4029;
-}
-
-.produk {
-    display: grid;
-    grid-template-columns: 220px 220px 220px 220px;
-    grid-template-rows: 350px 350px 350px;
-    justify-content: center;
-}
-
-.item{
-    display: grid;
-    grid-template-areas: "gambar"
-                         "nama-menu harga";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    margin-left: 30px;
-    margin-top: -60px;
-    margin-bottom: 0px;
-    width: 176px;
-    height: 212.41px;
-    background-color: white;
-    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);            
-    padding: 10px 10px;
-    border-radius: 30px;
-    text-align: center;
-    cursor: pointer;
-
-}
-
-.img{
-    grid-area: gambar;
-    margin: -90px 100px;
-    border-radius: 100px;
-}
-
-.item h1{
-    grid-area: nama-menu;
-    margin: 50px 90px;
-    padding: 20px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 27px;
-    text-align: center;
-    line-height: 101.34%;
-}
-
-.item p{
-    grid-area: harga;
-    margin: 170px auto;
-    font-family: Poppins;
-    font-style: normal;
+#navbarp li:hover{
     font-weight: bold;
-    font-size: 19px;
-    line-height: 25px;
-    text-align: center;
     color: #6A4029;
-}
+    border-bottom: solid 4px #6A4029 ;
 
-.keterangan{
-    width: 408px;
-    height: 26px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 25px;
-    text-align: center;
-    color: #6A4029;
-    margin-left: 30px;
-    margin-top: -130px;
-    padding-bottom: -900px;
 }
+    #produk{
+        border-radius: 30px ;
+        width: 176px;
+        height: 212.41px;
+        margin-top: 90px;  
+        cursor: pointer;
+    }
+
+    #produk:hover{
+        border: solid 2px #6A4029;
+    }
+
+    #produk .card-body img{
+        margin-top: -90px;
+        margin-left: -15px;
+    }
+
+    #produk .card-body h5{
+        width: 125px;
+        height: 61px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 101.34%;
+        margin-top: 10px;
+        text-align: center;
+        color: #000000;
+        align-items: center;
+    }
+
+    #produk .card-body p{
+        position: absolute;
+        width: 135.13px;
+        height: 14.93px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-top: 15px;
+
+        color: #6A4029;
+
+    }
+
+    .list li{
+        background-color: transparent;
+        border: transparent;
+    }
+
+   
+/* promo */
+    .promo{
+        border-right: solid 1px #9F9F9F;
+    }
+    #promo{
+        width: 335px;
+        height: 109px;
+        background: #88B788;
+        border-radius: 20px;
+    }
+    #promo:hover{
+        background-color:bisque !important;
+        cursor: pointer;
+    }
+
+    #promo .card-body img{
+        margin-top:-10px;
+        margin-left: -15px;
+    }
+
+    #promo .card-body h5{
+        margin-top: -75px;
+        margin-left: 70px;
+        width: 215px;
+        height: 57px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: #000000;
+    }
+
+    #promo .card-body p{
+        margin-top: -40px;
+        margin-left: 70px;
+        width: 190px;
+        height: 57px;
+        font-family: Poppins;
+        font-style: normal;
+        line-height: 21px;
+        font-size: 14px;
+        color: #000000; 
+    }
+    .orange{
+        background-color: #F5C361 !important;
+    }
+    .orange:hover{
+        background-color:bisque !important;
+    }
+
+    .coklat{
+        background-color: #C59378 !important;
+    }
+    .coklat:hover{
+        background-color:bisque !important;
+    }
+    .apply button{
+        width: 335px;
+        height: 64px;
+        background: #6A4029;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;                     
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    .apply button:hover{
+        background-color: #F5C361;
+    }
+
+    .ket-promo h1{
+        width: 291px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 210px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        color: #6A4029;
+    }
+
+    .ket-promo p{
+        width: 231px;
+        height: 36px;
+        margin-left: 185px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
+    }

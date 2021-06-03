@@ -1,0 +1,137 @@
+@media screen and (max-width: 576px){
+
+    /*navbar  */
+    #navb{
+         margin-left: -1px !important;
+         
+     }
+     #navb ul{
+         box-shadow: 1px 1px 10px #cccccc;
+         margin: 0;
+     }
+
+     
+     
+     .logo-navbar img{
+         margin-left: -190px !important;
+     }
+
+     .icon-nav li{
+         display: none;
+     }       
+
+
+ /* produk */
+
+ #navbarp ul{
+    box-shadow: 1px 1px 10px #cccccc;
+ }
+ #navbarp .list li{
+    background-color: transparent; 
+    border: transparent;
+    font-size: 12px;
+    font-weight: 20;
+    text-align: center;      
+}
+#navbarp .list li:hover{
+    font-weight: bold !important;
+    color: #6A4029 !important;
+    border-bottom: solid 4px #6A4029 !important;
+
+}
+
+ #produk{
+         border-radius: 30px ;
+         width: 140px !important;
+         height: 185.41px !important;
+         margin-top: 80px !important;
+         
+     }
+
+     #produk .card-body img{
+         margin-top: -70px !important;
+         margin-left: -18px !important;
+         height: 120px;
+         width: 120px;
+     }
+
+     #produk .card-body h5{
+         width: 99px !important;
+         height: 61px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 20px !important;
+         line-height: 101.34%;
+         margin-top: 10px !important;
+         margin-left: -6px !important;
+      
+     }
+
+     #produk .card-body p{
+         position: absolute;
+         width: 135.13px;
+         height: 14.93px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 15px !important;
+         line-height: 25px;
+         margin-left: 6px !important;
+         margin-top: 5px !important;
+
+         color: #6A4029;
+
+     }
+
+
+ /* promo */
+ #promo{
+         display: flex;
+         flex-direction: row;
+         width: 335px !important;
+         height: 109px;
+         background: #88B788;
+         border-radius: 20px;
+     }
+
+ #coverpromo{
+     overflow: scroll;
+     height: 150px;            
+ }    
+ 
+ .ket-promo h1{
+    
+         margin-top: 20px;
+         margin-left: 90px !important;
+        
+     }
+
+     .ket-promo p{
+         width: 231px;
+         height: 36px;
+         margin-left: 75px !important;
+     }
+
+     /* footer */
+
+     .ket-logo p{
+         margin-left: -370px !important;
+         text-align: center !important;
+     }
+     .list-footer{
+         margin-top: -10px !important;
+     }
+     .list-footer li{
+     font-size: 20px !important;
+     line-height: 30px;
+     color: #4F5665;
+     text-align: start;
+     
+    }
+    .list-footer li:hover{
+         cursor: pointer;
+         color: #0B132A;
+    }
+
+}
