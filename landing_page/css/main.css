@@ -51,6 +51,10 @@
     color: #6A4029;
     padding-top: 16px;
 }
+.btn2:hover{
+    background-color: #6A4029 !important;
+    color: white;
+}
 
 .btn2 label{
     font-family: Rubik;

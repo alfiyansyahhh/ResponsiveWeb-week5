@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px){
+  
+    .form-group{
+       margin-left: -20px;
+      margin-left: 100px;
+    }
+    .btn{
+        margin-left: -20px;
+        margin-left: 90px;  
+    }
+    #google{
+        margin-left: -5px !important;
+        margin-left: 90px !important;
+     
+    }
+    .logo-footer{
+        margin-left: 50px;
+    }
+    .ket-logo{
+        margin-left: 200px !important;
+        text-align: center !important;
+    }
+    .icon-sosmed{
+        margin-left: 50px;
+    }
+    .copyright{
+        margin-left: 450px !important;
+    }
+}

@@ -12,10 +12,12 @@
     cursor: pointer;
 }
 
-.logos h1{
+.logos h1 a{
     font-size: 20px;
     margin-left: 10px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
     
 }
 

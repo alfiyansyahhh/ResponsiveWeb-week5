@@ -77,6 +77,9 @@
     .promo{
         border-right: solid 1px #9F9F9F;
     }
+    .promomt{
+        display: none !important; 
+    }
     #promo{
         width: 335px;
         height: 109px;

@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px){
+
+    /* navbar */
+    #navb{
+        margin-left: -1px !important;
+        
+    }
+    #navb ul{
+        box-shadow: 1px 1px 10px #cccccc;
+        margin: 0;
+    }
+    .logo-navbar img{
+        margin-left: -190px !important;
+    }
+
+    .icon-nav li{
+        display: none;
+    } 
+    /* promo */
+    .ket-promo h1{   
+        margin-top: 20px;
+        margin-left: 290px !important;
+    }
+    .ket-promo p{
+        margin-left: 260px !important;       
+    }
+    .promom{
+        display: none !important;
+    }
+   
+    .promomt{
+        display: flex !important;
+        width: 1500px !important;
+    }
+    #coverpromo{
+        overflow: scroll;
+        height: 150px;
+              
+    } 
+     /*footer  */
+     .ket-logo p{
+        margin-left: 30px !important;
+        text-align: center !important;
+    }
+    .logo-footer{
+        margin-left: 20px;
+    }
+    .ket-footer{
+       margin-left: 20px;
+      }
+      .icon-sosmed{
+       margin-left: 20px;
+      }
+
+    .list-footer{
+        margin-top: -10px !important;
+    }
+    .list-footer li{
+    font-size: 20px !important;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: start;
+    
+   }
+   .list-footer li:hover{
+        cursor: pointer;
+        color: #0B132A;
+   }
+}
