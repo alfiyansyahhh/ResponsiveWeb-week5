@@ -44,3 +44,7 @@ nav{
             color: #0B132A;
             
         }
+
+        .form-control{
+            border-radius: 30px;
+        }

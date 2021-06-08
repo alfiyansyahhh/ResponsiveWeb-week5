@@ -40,7 +40,7 @@
        
     }
     .card-icon svg{
-        width: 30px;
+        width: 30px !important;
         margin-left: -70px;
       
      

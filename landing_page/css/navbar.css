@@ -50,8 +50,9 @@ body{
 .secondary-menu .menu{
     display: flex;
     list-style-type: none;
-    margin-left: -1000px;
+    margin-left: -100px !important;
     margin-top: 20px;
+
 }
 .secondary-menu .menu li {
     margin: 15px;
@@ -66,7 +67,7 @@ body{
 
 
 .login{
-    
+    margin-left: -400px;
     color: black;
 }
 .login:hover{
@@ -79,6 +80,7 @@ body{
     width: 150px;
     background: #FFBA33;
     border-radius: 50px;
+    margin-left: -350px;
    
 }
 .signup:hover{
